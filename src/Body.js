@@ -16,7 +16,7 @@ export default function Body() {
         </div>
       </div>
 
-      <div className="akutDiv">
+      <div className="kontaktDiv">
 	  <a href="tel:031150903" onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="telNum">031-15 09 03</p></a>
         {/* <p className="telNum">031-15 09 03</p> */}
         <p className="akutTextRubrik">KONTAKT</p>
@@ -27,11 +27,11 @@ export default function Body() {
 		<PopupKontakt />
       </div>
 
-      <div className="bokaDiv">
+      <div className="hittaHitDiv">
         <p><img src={location} className="locationLogo" alt="location" /></p>
         <p className="akutTextRubrik">HITTA HIT</p>
         <p className="akutText">
-          Götgatan 14 <br/><br/>
+          Götgatan 14 <br/>
 		  411 05 Göteborg
         </p>
         {/* <button className="gridButton">Boka tid</button> */}
