@@ -321,6 +321,9 @@ margin-top: 3vh;
 }
 
 @media (max-width: 460px){
+	.App{
+		overflow-y: scroll;
+	}
 	  
 	  .headerDiv p{
 		padding: 7px;
@@ -328,7 +331,7 @@ margin-top: 3vh;
 	  }
 
 	.bodyGrid {
-		grid-template-rows: 30vh 27vh 27vh 27vh;
+		grid-template-rows: 40vh 36vh 36vh 36vh;
 	  }
 	  .bodyGridWithPic {
 		grid-row: 1/2;
@@ -364,7 +367,7 @@ margin-top: 3vh;
 	  .kontaktDiv {
 		grid-row: 4/5;
 		grid-column: 1/2;
-		padding: 1vh 4vw 4vh 4vw;
+		padding: 0vh 4vw 4vh 4vw;
 	  }
 
 }
