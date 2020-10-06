@@ -8,8 +8,8 @@ a {
 
 .headerDiv {
   background-color: #74A2A3;
-  width: 98vw;
-  margin: 1vh 0 0 1vw;
+  width: 100vw;
+  /* margin: 1vh 0 0 1vw; */
   border-radius: 5px;
   text-align: center;
   display: flex;
@@ -39,9 +39,10 @@ a {
 
 .bodyGrid {
   display: grid;
-  margin-left: 1vw;
+  width: 100vw;
+  /* margin-left: 1vw; */
   grid-template-rows: 60vh 30vh;
-  grid-template-columns: 32vw 33vw 32vw;
+  grid-template-columns: 33vw 33vw 33vw;
   grid-gap: 1vh;
   /* margin: 1vh 3vw 1vh 3vw; */
   margin-top: 1vh;
@@ -255,6 +256,8 @@ margin-top: 3vh;
 
 @media (max-width: 900px){
 
+	.
+
 	.hittaHitDiv {
 		grid-row: 2/3;
 		grid-column: 2/3;
@@ -278,9 +281,12 @@ margin-top: 3vh;
 }
 
 @media (max-width: 700px){
+	.headerDiv p{
+		font-size: 0.9em;
+	  }
 	.bodyGrid {
 		grid-template-columns: 100vw;
-		grid-template-rows: 40vh 22vh 22vh 22vh;
+		grid-template-rows: 40vh 25vh 25vh 25vh;
 	  }
 	  .bodyGridWithPic {
 		grid-row: 1/2;
@@ -293,6 +299,55 @@ margin-top: 3vh;
 		padding: 40px;
 		border-radius: 5px;
 	  }
+	.hittaHitDiv {
+		grid-row: 2/3;
+		grid-column: 1/2;
+		padding: 1vh 4vw 4vh 4vw;
+	  }
+	  
+	  
+	  .openDiv {
+		grid-row: 3/4;
+		grid-column: 1/2;
+		padding: 1vh 4vw 4vh 4vw;
+	  }
+
+	  .kontaktDiv {
+		grid-row: 4/5;
+		grid-column: 1/2;
+		padding: 1vh 4vw 4vh 4vw;
+	  }
+
+}
+
+@media (max-width: 460px){
+	  
+	  .headerDiv p{
+		padding: 7px;
+		/* font-size: 1em; */
+	  }
+
+	.bodyGrid {
+		grid-template-rows: 30vh 27vh 27vh 27vh;
+	  }
+	  .bodyGridWithPic {
+		grid-row: 1/2;
+		grid-column: 1/2;
+		background-image: url(clinic.jpg);
+		background-position: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10vw;
+		border-radius: 5px;
+	  }
+
+	  .textLogo{
+		padding: 0 20px 0 20px;
+		margin-top: 10px;
+		color: #868686;
+		font-size: 1.2em;
+	}
 	.hittaHitDiv {
 		grid-row: 2/3;
 		grid-column: 1/2;
