@@ -6,7 +6,7 @@ const path = require('path')
 const bodyParser = require('body-parser');
 
 //MIDDLEWARE
-app.use(express.static(path.join(__dirname + '/../build')));
+app.use(express.static(path.join(__dirname, '/../build')));
 
 app.use((req, res, next) => {
 	console.log(`${req.method} ${req.url}`);
