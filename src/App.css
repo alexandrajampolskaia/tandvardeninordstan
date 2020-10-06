@@ -210,8 +210,8 @@ button:focus{
   }
   
   .popUpDiv {
-	width: 650px;
-	height: 450px;
+	width: 50vw;
+	height: 40vh;
 	background-color: white;
 	/* display: grid; */
 	border-radius: 5px;
@@ -224,7 +224,7 @@ button:focus{
 	color: #A094A3;
 	/* align-self: start;
 	justify-self: end; */
-	margin-left: 610px;
+	margin-left: 47vw;
 	cursor: pointer;
 	font-size: 1.4em;
 	margin-top: 12px;
@@ -238,25 +238,31 @@ button:focus{
 	transition: all 0.7s ease 0s;
 	/* font-size: 1.5em; */
   }
-.mapText{
+/* .mapText{
 	color: black;
 	font-size: 0.8em;
 	border: 2px solid #A094A3;
 	padding: 20px 0 20px 0;
 	margin: 0 50px 0 50px;
 	border-radius: 5px;
-}
-.mapPic{
+} */
+/* .mapPic{
 	width: 500px;
 	height: 250px;
-} 
+}  */
 /* .gridButton{
 margin-top: 3vh;
 } */
 
 @media (max-width: 900px){
 
-	.
+	.popUpDiv {
+		width: 70vw;
+		height: 40vh;
+	  }
+	  .popUpX {
+		margin-left: 66vw;
+	  }
 
 	.hittaHitDiv {
 		grid-row: 2/3;
@@ -281,6 +287,13 @@ margin-top: 3vh;
 }
 
 @media (max-width: 700px){
+	.popUpDiv {
+		width: 90vw;
+
+	  }
+	  .popUpX {
+		margin-left: 86vw;
+	  }
 	.headerDiv p{
 		font-size: 0.9em;
 	  }
@@ -321,9 +334,15 @@ margin-top: 3vh;
 }
 
 @media (max-width: 460px){
+
 	.App{
 		overflow-y: scroll;
 	}
+
+
+	  .popUpX {
+		margin-left: 80vw;
+	  }
 	  
 	  .headerDiv p{
 		padding: 7px;
