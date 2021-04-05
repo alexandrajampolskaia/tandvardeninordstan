@@ -28,7 +28,7 @@ a {
 }
 
 .headerDiv p:hover{
-	color: #C4B6C8;
+	color: #000;
 	/* border-bottom: 2px solid white; */
 	transition: all 0.7s ease 0s;
 }
