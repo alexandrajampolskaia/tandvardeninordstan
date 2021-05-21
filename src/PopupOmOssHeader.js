@@ -14,7 +14,7 @@ const [show, setShow] = useState(false);
 		  </div>
         </div>
 	</FadeEffect> 
-	<p className="headerItems" onClick={() => setShow(show => !show)}>Om oss</p>
+	<p className="headerItems" onClick={() => setShow(show => !show)}>Om OSS</p>
 	</div>
   );
 };
